@@ -1,0 +1,24 @@
+html {
+    height: 100vh;
+
+}
+
+
+
+body {
+    min-height: 100vh;
+}
+
+footer {
+    width: 100%;
+    background: #ababab;
+    text-align: center;
+}
+
+
+
+/* 
+.post-img {
+    align-self: center;
+    max-width: 25%;
+} */
