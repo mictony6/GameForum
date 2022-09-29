@@ -19,6 +19,9 @@
     </div>
     <div class=" my-1">Password
       <p>{{form.password1}}</p>
+      {% for error in form.password1.errors %}
+      <p class="rounded bg-warning p-2">{{ error }}</p>
+      {% endfor %}
       <ul>
         <li><small>Your password can’t be too similar to your other personal information.</small></li>
         <li><small>Your password must contain at least 8 characters.</small></li>
